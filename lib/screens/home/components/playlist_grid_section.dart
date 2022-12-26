@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:spotify_clone_flutter/core/theme/app_theme.dart';
-import '../../../core/constants/const.dart';
+import '../../../core/fixtures/app_fixtures.dart';
 
 class PlayListGridSection extends StatelessWidget {
   const PlayListGridSection({super.key});

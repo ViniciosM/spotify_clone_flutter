@@ -3,7 +3,7 @@ import 'package:spotify_clone_flutter/core/theme/app_theme.dart';
 import 'package:spotify_clone_flutter/screens/profile/components/artist_container.dart';
 import 'package:spotify_clone_flutter/screens/profile/components/player_list_container.dart';
 import '../../core/components/icon_button_widget.dart';
-import '../../core/constants/const.dart';
+import '../../core/fixtures/app_fixtures.dart';
 
 class ProfleScreen extends StatelessWidget {
   const ProfleScreen({Key? key}) : super(key: key);

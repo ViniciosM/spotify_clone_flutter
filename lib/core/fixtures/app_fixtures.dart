@@ -60,7 +60,7 @@ class SearchListItem {
   SearchListItem({required this.title, required this.img, required this.color});
 }
 
-List<SearchListItem> kPlaylistSdded = [
+List<SearchListItem> kTopGenres = [
   SearchListItem(
     title: 'Rock',
     img: 'https://pbs.twimg.com/media/EJMbrPkVUAIxT9g.jpg',

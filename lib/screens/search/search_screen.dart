@@ -36,7 +36,7 @@ class SearchScreen extends StatelessWidget {
                       padding: const EdgeInsets.only(bottom: 16),
                       sectionBodyBuilder: (context) {
                         return SearchSectionItemBuilder(
-                          list: kPlaylistSdded,
+                          list: kTopGenres,
                         );
                       }),
                   SectionBuilder(
