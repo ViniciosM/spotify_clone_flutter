@@ -3,12 +3,7 @@ import 'package:spotify_clone_flutter/screens/landing/landing_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  //FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   runApp(const MyApp());
-}
-
-Future init() async {
-  await Future.delayed(const Duration(seconds: 3));
 }
 
 class MyApp extends StatelessWidget {
