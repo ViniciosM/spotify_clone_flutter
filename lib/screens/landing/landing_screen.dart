@@ -1,4 +1,7 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:spotify_clone_flutter/core/components/icon_button_widget.dart';
 import 'package:spotify_clone_flutter/core/theme/app_theme.dart';
 import 'package:spotify_clone_flutter/screens/home/home_screen.dart';
@@ -18,6 +21,14 @@ class LandingScreen extends StatefulWidget {
 int _selectedIndex = 0;
 
 class _LandingScreenState extends State<LandingScreen> {
+  @override
+  void initState() {
+    super.initState();
+    log("Carregando recursos...");
+    Future.delayed(const Duration(seconds: 3));
+    FlutterNativeSplash.remove();
+  }
+
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
